@@ -20,7 +20,7 @@ public class AccessSer_mrz extends AccessibilityService {
             case AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED:
                 AccessibilityNodeInfo rootWin = this.getRootInActiveWindow();
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
-                    aid = MainActivity2.packageName + ":id/button_";
+                    aid = MainActivity2.packageName + ":id/buttom";
                     List<AccessibilityNodeInfo> accessList = rootWin.findAccessibilityNodeInfosByViewId(aid);
                     for (AccessibilityNodeInfo a : accessList) {
                         Log.e(TAG, "onAccessibilityEvent: " + a.getText());
