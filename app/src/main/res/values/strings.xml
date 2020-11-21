@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AutoDing</string>
+    <string name="access_labe">钉钉自动打卡</string>
+    <string name="accessibility_service_description">钉钉自动打卡</string>
+</resources>
